@@ -2,13 +2,13 @@
 <br>
   <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170">
   <br>
-    <br>
-  Front-End Performance Checklist
+  <br>
+  프론트엔드 성능 체크리스트
   <br>
 </h1>
 
-<h4 align="center">🎮 The only Front-End Performance Checklist that runs faster than the others.</h4>
-<p align="center">One simple rule: "Design and code with performance in mind"</p>
+<h4 align="center">🎮 다른 것들보다 빠르게 실행되는 유일한 프론트엔드 성능 체크리스트</h4>
+<p align="center">한가지 단순한 규칙: "성능을 고려한 설계와 코드"</p>
 
 <p align="center">
   <a href="http://makeapullrequest.com">
@@ -31,7 +31,7 @@
   <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Front-End Checklist</a> • <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Front-End Design Checklist</a>
 </p>
 
-## Table of Contents
+## 목차
 
 1. **[HTML](#html)**
 2. **[CSS](#css)**
@@ -41,23 +41,23 @@
 6. **[Server](#server) (in progress)**
 7. **[JS Frameworks](#js-frameworks) (in progress)**
 
-## Introduction
+## 소개
 
-Performance is a huge subject, but it's not always a "back-end" or an "admin" subject: it's a Front-End responsibility too. The Front-End Performance Checklist is an exhausted list of elements you should check or at least be aware of, as a Front-End developer and apply to your project (personal and professional).
+성능은 거대한 주제지만, 항상 "백엔드"나 "어드민"에만 국한되는 주제는 아닙니다: 프론트엔드도 성능에 대한 책임이 있습니다. 프론트엔드 성능 체크리스트는 프론트엔드 개발자로서 최소한 알아야하거나 체크해야할 요소들의 목록이며, 프로젝트에 적용해야 하는 것입니다.
 
-### How to use?
+### 어떻게 사용하나요?
 
-For each rule, you will have a paragraph explaining *why* this rule is importante and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
+각 규칙은 *왜* 이 규칙이 중요하고 *어떻게* 고칠 수 있는지 설명하고 있습니다. 많약 더 자세한 정보를 얻고 싶다면, 체크리스트를 완성시킬 수 있는 🛠 툴, 📖 아티클, 📹 미디어를 가리키는 링크를 찾아야 합니다.
 
-All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There is 3 levels of priority / impact:
+**프론트엔드 성능 체크리스트**의 모든 항목은 최고의 성능을 내는데 필수적이지만, 일부 규칙의 우선 순위를 정하는데 도움을 주기 위해 우선 순위/영향을 3가지 레벨로 구분했습니다:
 
-* ![Low][low] means that the item has a **low** priority and impact on your project.
-* ![Medium][medium] means that the item has a **medium** priority and impact on your project. You shouldn't avoid tackling that item.
-* ![High][high] means that the item has a **high** priority and impact on your project. You can't avoid following that rules and do the corrections appropriates.
+* ![Low][low]는 해당 항목이 프로젝트에 **낮은** 우선 순위와 영향을 가진다는 의미입니다.
+* ![Medium][medium]은 해당 항목이 프로젝트에 **중간** 정도의 우선 순위와 영향을 가진다는 의미입니다. 이 항목에 대해 고민하는 것을 피해선 안 됩니다.
+* ![High][high]는 해당 항목이 프로젝트에 **높은** 우선 순위와 영향을 가진다는 의미입니다. 이 규칙을 피할 수 없으며, 수정 사항을 적용해야 합니다.
 
-### Performance tools
+### 성능 도구
 
-List of the tools you can use to test or monitor your website or application:
+웹사이트나 어플리케이션을 모니터링하고 테스트할 때 사용할 수 있는 도구들입니다:
 
  * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
  * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/)
@@ -67,7 +67,7 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
  * 📖 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
 
-### References
+### 참고자료
 
  * 📖 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4)
  * 📖 [Get Started With Analyzing Runtime Performance  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
@@ -79,28 +79,28 @@ List of the tools you can use to test or monitor your website or application:
 
 ![html]
 
-- [ ] **Minified HTML:** ![medium] The HTML code is minified, comments, white spaces and new lines are removed from production files.
+- [ ] **HTML 압축:** ![medium] HTML 코드를 압축하고, 최종 파일에서 주석, 공백, 줄바꿈을 제거합니다.
 
-    *Why:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
+    *왜:*
+    > 불필요한 공백, 주석, 개행을 제거하면 HTML의 크기를 줄이고 페이지의 로딩 속도를 높일 수 있습니다.그리고 사용자의 다운로드 시간을 줄일 수 있습니다.
 
-    *How:*
-    > ⁃ Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
+    *어떻게:*
+    > 대부분의 프레임워크에는 웹페이지를 압축시키는 플러그인이 있으며, 여러 NPM 모듈을 사용해 이 작업을 자동으로 처리할 수 있습니다.
 
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
     * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
 
-- [ ] **Remove unnecessary comments:** ![low] Ensure that comments are removed from your pages.
+- [ ] **불필요한 주석 제거:** ![low] 페이지에서 주석이 지워졌는지 확인합니다.
 
-    *Why:*
-    > Comments are not really useful for the user then should be removed from production files. One case where you want to keep comments could be if you need to keep the origin for a library.
+    *왜:*
+    > 주석은 사용자에게 필요하지 않기 때문에 최종 파일에서 지워져야 합니다. 라이브러리의 원본을 유지하고 싶은 경우에는 주석을 남겨둘 수 있습니다.
 
-    *How:*
-    > ⁃ Most of the time, comments can be removed using an HTML minify plugin.
+    *어떻게:*
+    > ⁃ 대부분의 경우 HTML 압축 플러그인을 사용해 주석을 지울 수 있습니다.
 
  * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
 
-- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"` or `type="text/css"` anymore and should be removed.
+- [ ] **불필요한 속성 제거:** ![low] `type="text/javascript"`이나 `type="text/css`와 같은 타입 속성은 더 이상 필요하지 않으며, 지워야 합니다.
 
     ```html
     <!-- Before HTML5 -->
@@ -114,15 +114,15 @@ List of the tools you can use to test or monitor your website or application:
     </script>
     ```
 
-    *Why:*
-    > Type attributes are not necessary as HTML5 implies text/css and text/javascript as defaults. Unused code should be removed when not used by your website or app as they add more weight to your pages.
+    *왜:*
+    > HTML5는 text/css와 text/javascript를 기본으로 지원하기 때문에 타입 속성이 불필요합니다. 웹이나 앱에서 사용되지 않는 코드는 지워야 하며, 불필요한 코드는 페이지를 무겁게 만듭니다.
 
-    *How:*
-    > ⁃ Ensure that all your `<link>` and `<script>` tags don't have any type attribute.
+    *어떻게:*
+    > ⁃ `<link>`와 `<script>`에 타입 속성이 남아 있는지 확인하세요.
 
     * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
-- [ ] **Place CSS tags always before JavaScript tags:** ![high] Ensure that your CSS is always loaded before having JavaScript code.
+- [ ] **CSS 태그를 자바스크립트 태그 앞에 두기:** ![high] CSS가 항상 자바스크립트 코드 전에 로드되는지 확인하세요.
 
     ```html
     <!-- Not recommended -->
@@ -136,15 +136,15 @@ List of the tools you can use to test or monitor your website or application:
     <script src="foo.js"></script>
     ```
 
-    *Why:*
-    > Having your CSS tags before any JavaScript enables better, parallel download which speed up browser rendering time.
+    *왜:*
+    > 자바스크립트 전에 CSS 태그를 두면 브라우저의 렌더링 속도를 높이는 병렬 다운로드가 가능해집니다.
 
-    *How:*
-    > ⁃ Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
+    *어떻게:*
+    > ⁃ `<head>`의 `<link>`와 `<style>`이 `<script>` 앞에 있는지 확인하세요.
 
     * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
 
-- [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid as much as you can iframes.
+- [ ] **iframe 최소화:** ![high] 다른 기술적 가능성이 없을 때만 iframe을 사용하고, 최대한 iframe을 사용하지 않도록 하세요.
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -152,18 +152,18 @@ List of the tools you can use to test or monitor your website or application:
 
 ![css]
 
-- [ ] **Minification:** ![high] All CSS files are minified, comments, white spaces and new lines are removed from production files.
+- [ ] **CSS 압축:** ![high] CSS 파일을 압축하고, 최종 파일에서 주석, 공백, 줄바꿈을 제거합니다.
 
-    *Why:*
-    > When CSS files are minified, the content is loaded faster and less data are send to the client. It's important to always minified CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
+    *왜:*
+    > CSS 파일을 압축하면 클라이언트에게 더 적은 데이터를 전송하게 되며, 콘텐츠가 더 빨리 로드됩니다. CSS 파일을 압축하는 것은 중요한 일입니다. 이는 대역폭과 리소스 사용을 줄이고자 하는 모든 비즈니스에 도움이 됩니다.
 
-    *How:*
-    > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
+    *어떻게:*
+    > ⁃ 개발이나 빌드 중, 또는 그 전에 파일을 자동으로 압축해주는 툴을 사용하세요.
 
     * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
     * 🛠 [@neutrinojs/style-minify - npm](https://www.npmjs.com/package/@neutrinojs/style-minify)
 
-- [ ] **Concatenation:** ![medium] CSS files are concatenated in a single file *(Not always valid for HTTP/2)*.
+- [ ] **합치기:** ![medium] 여러 CSS 파일들을 하나의 파일로 합치세요. *(HTTP/2 에서는 항상 유효하진 않습니다.)*.
 
     ```html
 
@@ -175,87 +175,86 @@ List of the tools you can use to test or monitor your website or application:
     <script src="combined.js"></script>
     ```
 
-    *Why:*
-    > If you are still using HTTP/1, you may need to still concatenate your files, it's less true if your server use HTTP/2 (tests should be made).
+    *왜:*
+    > 여전히 HTTP/1을 사용하고 있다면 파일을 합칠 필요가 있습니다. 다만 서버가 HTTP/2라면 꼭 그렇지 않습니다. (테스트를 해봐야 합니다.)
 
-    *How:*
-    > ⁃ Use online tool or any plugin before or during your build or your deployment to concatenate your files.
-    ⁃ Ensure, of course, that concatenation does not break your project.
+    *어떻게:*
+    > ⁃ 개발이나 빌드 중, 또는 그 전에 파일을 합쳐주는 온라인 툴, 플러그인을 사용하세요. ⁃ 물론 합치는 작업이 프로젝트를 방해하지는 않도록 하세요.
 
     * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
     * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
 
-- [ ] **Non-blocking:** ![high] CSS files need to be non-blocking to prevent the DOM from taking time to load.
+- [ ] **Non-blocking:** ![high] DOM이 로드되는데 시간이 걸리지 않도록 CSS 파일은 non-blocking 되어야 합니다.
 
     ```html
     <link rel="preload" href="global.min.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="global.min.css"></noscript>
     ```
 
-    *Why:*
-    > CSS files can block the page load and delay the rendering of your page. Using `preload` can actually load the CSS files before the browser starts showing the content of the page.
+    *왜:*
+    > CSS 파일은 페이지 로드와 렌더링을 지연시킬 수 있습니다. `preload`를 통해 브라우저가 페이지의 콘텐츠를 보옂기 전에 CSS 파일을 로드할 수 있습니다.
 
-    *How:*
-    > ⁃ You need to add the `rel` attribute with the `preload` value and add `as="style"` on the `<link>` element.
+    *어떻게:*
+    > ⁃ `rel` 속성의 값을 `preload`로 주고, `as="style"`를 `<link>` 태그에 넣습니다.
 
     * 📖 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
     * 📖 [Example of preload CSS using loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
     * 📖 [Preloading content with rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
     * 📖 [Preload: What Is It Good For? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
 
-- [ ] **Length of CSS classes:** ![low] The length of your classes can have an (slight) impact on your HTML and CSS files (eventually).
+- [ ] **CSS 클래스의 길이:** ![low] 클래스의 길이가 HTML과 CSS 파일에 (결과적으로) 영향을 줄 수 있습니다.
 
-    *Why:*
-    > Even performance impacts can be disputable, taking a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. If you are using BEM, in some cases, you can ended up with classes having more characters than need. It's always important to choose wisely your names and namespaces.
+    *왜:*
+    > 성능 영향은 문제의 여지가 있으며, 이름을 짓는 전략을 결정하는 것은 스타일시트의 유지관리에 상당한 영향을 미칠 수 있습니다. 만약 BEM을 사용하고 있다면, 경우에 따라 클래스 이름에 필요 이상의 문자를 사용할 수 있습니다. 이름을 현명하게 정하는 것은 언제나 중요한 일입니다.
 
-    *How:*
-    > ⁃ Setting a limit in terms of number of characters could be interesting for some people, but ensuring that you broke down your website in components can help to reduce the amount of classes (and declarations) and the length of your classes.
-
+    *어떻게:*
+    > ⁃ 문자의 길이에 제한을 둔다는 것이 누군가에게는 흥미로울 수 있습니다만, 웹사이트를 여러 컴포넌트로 분리하면 클래스와 클래스의 길이를 줄이는데 도움이 될 수 있습니다.
+    
     * 🛠 [long vs short class · jsPerf](https://jsperf.com/long-vs-short-class)
 
-- [ ] **Unused CSS:** ![medium] Remove unused CSS selectors.
+- [ ] **사용되지 않는 CSS:** ![medium] 사용되지 않는 CSS 선택자를 지우세요.
 
-    *Why:*
-    > Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets.
+    *왜:*
+    > 사용하지 않는 CSS 선택자를 지우면 파일의 크기를 줄일 수 있으며, 로딩 속도를 높일 수 있습니다.
 
-    *How:*
-    > ⁃ ⚠️ Always check if the framework CSS you want to use don't already has a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
+    *어떻게:*
+    >  ⁃ ⚠️ 항상 사용하려는 CSS 프레임워크에 이미 reset / normalize 코드가 포함되어있지 않은지 체크하세요. 경우에 따라 reset / normalize 파일에 있는 것이 필요하지 않을 수도 있습니다.
 
     * 🛠 [UnCSS Online](https://uncss-online.com/)
     * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
     * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
     * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
 
-* [ ] **CSS Critical:** ![high] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified if possible).
+* [ ] **CSS 크리티컬:** ![high] CSS 크리티컬 (또는 "어보브 더 폴드")은 페이지의 보이는 부분을 렌더링하는 데 사용되는 모든 CSS를 수집합니다. 이는 주요 CSS 호출 전, 그리고 `<style></style>` 사이에 한 줄로 임베디드됩니다. (가능하면 압축됩니다.)
 
-    *Why:*
-    > Inlining critical CSS help to speed up the rendering of the web pages reducing the number of requests to the server.
+    *왜:*
+    > CSS 크리티컬을 넣으면 서버 요청을 줄여 웹 페이지의 렌더링 속도를 높일 수 있습니다.
 
-    *How:*
-    > ⁃ Generate the CSS critical with online tools or using a plugin like the one that Addy Osmani developed.
-
+    *어떻게:*
+    > ⁃ 온라인 툴이나 Addy Osmani가 개발한 것과 같은 플러그인을 사용해 CSS 크리티컬을 생성하세요.
+    
     * 📖 [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
     * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
     * 📖 [Inlining critical CSS for better web performance | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
      * 📖 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
 
-- [ ] **Embedded or inline CSS:** ![high] Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
+- [ ] **외부 또는 인라인 CSS:** ![high] 외부 또는 인라인 CSS를 `<body>` 안에 두지 마세요. *(HTTP/2에서는 유효하지 않습니다.)*
 
-    *Why:*
-    > One of the first reason it's because it's a good practice to **separate content from design**. It also help you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decrease the file-size of your HTML pages and the load time.
+    *왜:*
+    > 이렇게 해야하는 첫 번째 이유는 **디자인에서 콘텐츠를 분리**하는 것이 좋은 관행이기 때문입니다. 또한 이는 코드 유지보수를 쉽게 만들고 사이트 접근성을 높이는 데도 도움이 됩니다. 성능과 관련해서는, 이것이 HTML 페이지의 파일 크기와 로딩 시간을 줄이기 때문입니다.
 
-    *How:*
-    > ⁃ Always use external stylesheets or embed CSS in your `<head>` (and follow the others CSS performance rules)
-
+    *어떻게:*
+    > ⁃ 항상 외부 스타일 시트를 사용하거나 CSS를 `<head>`에 임베드하세요. (그리고 다른 CSS 성능 규칙을 따르세요.)
+    
     * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
 
-- [ ] **Analyse stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
+- [ ] **스타일시트 복잡도 분석:** ![high] 스타일시트를 분석하는 것은 불필요한 중복 CSS 선택자를 찾는 데 도움이 됩니다. 
 
-    *Why:*
-    > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
+    *왜:*
+    > 종종 중복, 또는 유효성 에러가 CSS 코드에서 발생할 수 있는데, CSS 파일을 분석하고 복잡성을 해결하면 CSS 파일의 속도를 높일 수 있습니다. (브라우저가 더 빨리 읽어 들이기 때문이죠.)
 
-    *How:*
-    > ⁃ Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed above can also help you analysing and correct your code.
+    *어떻게:*
+    > ⁃ CSS 전처리기를 사용해 CSS를 조직해야 합니다. 위에 나열된 일부 온라인 툴이 코드를 분석하고 바로 잡는데 도움이 될 수도 있습니다.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
     * 📖 [CSS Stats](https://cssstats.com/)
@@ -269,38 +268,38 @@ List of the tools you can use to test or monitor your website or application:
 
 * 📖 [A Book Apart, Webfont Handbook](https://abookapart.com/products/webfont-handbook)
 
-- [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
+- [ ] **웹폰트 포맷:** ![medium] 웹 프로젝트 또는 어플리케이션에서 WOFF2를 사용하세요.
 
     *Why:*
-    > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
+    > 구글에 따르면, WOFF 2.0 웹 폰트 압축 포맷은 WOFF 1.0보다 평균 30% 더 많이 쓰입니다. WOFF 2.0과 WOFF 1.0을 TTF의 대체제로 사용하는 것이 좋습니다.
 
-    *How:*
-    > ⁃ Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
-
+    *어떻게:*
+    > ⁃ 새로운 폰트를 구매하기 전에 제공자가 WOFF2 포맷을 제공하는지 체크하세요. 만약 무료 폰트를 사용한다면, Font Squirrel을 통해 필요한 포맷을 생성할 수 있습니다. 
+    
     * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
     * 🛠 [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
     * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
     * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
 
-- [ ] **Use `preconnect` to load your fonts faster:** ![medium]
+- [ ] **폰트를 더 빨리 로드하기 위해 `preconnect`를 사용:** ![medium]
 
     ```html
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     ```
 
     *Why:*
-    > When you arrived on a website, your device needs to find out where you site live and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the ressource (fonts, CSS files...). Prefetches and preconnects allow the browser
-
+    > 웹 사이트를 열면, 디바이스는 사이트의 위치와 연결해야 하는 서버를 찾아야 합니다. 브라우저는 DNS 서버를 찾고, 리소스 (폰트, CSS 파일...) 수집이 끝나기 전, 조회가 완료될 때까지 대기해야 합니다. 이때 prefetches와 preconnects가 브라우저를 허용합니다.
+    
     *How:*
-    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website.
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested.
-    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too.
+    > ⁃ 웹폰트를 사전 수집하기 전에, 웹사이트를 평가하기 위해 웹 페이지 테스트를 사용하세요.
+    ⁃ teal colored DNS를 찾고 요청 중인 호스트를 확인하세요.
+    ⁃ `<head>`에 둔 웹폰트를 사전 수집하고 함께 사전 수집할 호스트네임을 추가하세요. 
 
     * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
     * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
     * 📖 [Ultimate Guide to Browser Hints: Preload, Prefetch, and Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
 
-- [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
+- [ ] **웹 폰트 크기:** ![medium] 웹폰트 크기가 300kb를 넘지 않도록 하세요. (모든 파생 요소 포함)
 
  * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
 
@@ -312,73 +311,73 @@ List of the tools you can use to test or monitor your website or application:
 
  * 📖 [Image Bytes in 2018](https://httparchive.org/reports/page-weight#bytesImg)
 
-* [ ] **Images optimization:** ![high] Your images are optimized, compressed without direct impact to the end user.
+* [ ] **이미지 최적화:** ![high] 이미지는 최적화되어야 하며, 최종 사용자에게 영향을 미치지 않는 선에서 압축되어야 합니다. 
 
     *Why:*
-    > Optimized images load faster in your browser and consume less data.
+    > 압축된 이미지는 브라우저에서 더 빨리 로드되고, 보다 적은 데이터를 소비합니다.
 
     *How:*
-    > ⁃ Try using CSS3 effects when it's possible (instead of a small image)
-    ⁃ When it's possible, use fonts instead of text encoded in your images
-    ⁃ Use SVG
-    ⁃ Use a tool and specify a level compression under 85.
-
+    > ⁃ 가능하다면 CSS3 효과를 사용하세요. (작은 이미지 대신)
+    ⁃ 가능하면, 이미지에 인코딩된 텍스트 대신 폰트를 사용하세요.
+    ⁃ SVG를 사용하세요.
+    ⁃ 툴을 사용하고 압축 레벨을 85 미만으로 하세요.
+    
     * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
     * 🛠 [TinyJPG – Compress JPEG images intelligently](https://tinyjpg.com/)
 
 
-* [ ] **Images format:** ![high] Choose your image format appropriately.
+* [ ] **이미지 형식:** ![high] 적절한 이미지 형식을 선택하세요.
 
-    *Why:*
-    > To ensure that your images don't slow your website, choose the format that will
-
-    *How:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP)
-    ⁃ Compare different formats, sometimes using PNG8 is better than PNG16, sometimes it's not.
-
+    *왜:*
+    > 웹 사이트를 느리게 만들지 않는 이미지 형식을 사용하세요. 
+    
+    *어떻게:*
+    > ⁃ [Lighthouse](https://developers.google.com/web/tools/lighthouse/)를 사용해 이미지가 최종적으로 **차세대 포맷**(JPEG 2000m JPEG XR 또는 WebP)을 사용할 수 있는지 확인하세요. 
+    ⁃ 다른 포맷을 비교하세요. 어떨 때는 PNG8을 사용하는 것이 PNG16을 사용하는 것보다 낫고, 어떨 때는 그렇지 않습니다.
+    
     * 📖 [Serve Images in Next-Gen Formats  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
     * 📖 [What Is the Right Image Format for Your Website? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
      * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
      * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
-- [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
+- [ ] **벡터 이미지 vs 래스터/비트맵:** ![medium] 비트맵 이미지보다는 벡터 이미지를 사용하세요. (가능하다면)
 
-    *Why:*
-    > Vector images (SVG) tend to be smaller than images and SVG's are responsive and scale perfectly. These images can be animated and modified by CSS.
+    *왜:*
+    > 벡터 이미지 (SVG)는 다른 이미지보다 작고, SVG는 반응성이 뛰어나며 완벽하게 크기가 변할 수 있습니다. 벡터 이미지는 CSS에 의해 수정되거나 움직일 수 있습니다.
 
-* [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
+* [ ] **이미지 크기:** ![medium] 최종적으로 나타나는 이미지 크기를 안다면 `<img>`에 `width`와 `height` 속성을 명시하세요.
 
-    *Why:*
-    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+    *왜:*
+    > 높이와 너비가 설정되어 있으면 페이지가 로드됐을 때 이미지가 필요로하는 공간이 예약됩니다. 하지만, 이 속성이 없다면, 브라우저는 이미지의 크기를 알 수 없고, 적절한 공간을 예약해 둘 수 없습니다. 그러면 페이지를 로딩하는 중에 레이아웃이 변하는 현상이 발생합니다. (이미지를 로드하는 동안)
 
-* [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
+* [ ] **Base64 이미지 사용 지양:** ![medium] base64를 통해 결과적으로 작은 이미지를 얻을 수 잇지만, 이것이 최고의 방법은 아닙니다.
 
     * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
     * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
     * 📖 [When to base64 encode images (and when not to) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
    * 📖 [Base64 encoding images for faster pages | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
 
-* [ ] **Lazy loading:** ![medium] Images are lazyloaded (A noscript fallback is always provided).
+* [ ] **레이지 로딩:** ![medium] 이미지를 레이지 로딩시키세요. (noscript 폴백이 언제나 제공됩니다.)
 
-    *Why:*
-    > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
-
-    *How:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**.
-    ⁃ Use a JavaScript plugin like to lazyload your images.
+    *왜:*
+    > 이렇게 하면 현재 페이지의 반응 시간을 개선하고 사용자에게 필요하지 않은 이미지를 로딩하지 않을 수 있습니다.
+    
+    *어떻게:*
+    > ⁃ [Lighthouse](https://developers.google.com/web/tools/lighthouse/)를 사용해 얼마나 많은 **이미지가 오프스크린되는 지** 확인하세요..
+    ⁃ 이미지를 레이지 로드시켜주는 자바스크립트 플러그인을 사용하세요.
 
     * 🛠 [verlok/lazyload: Github](https://github.com/verlok/lazyload)
     * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
     * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
-* [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
+* [ ] **반응형 이미지:** ![medium] 디스플레이 크기에 맞는 이미지를 사용하세요.
 
-    *Why:*
-    > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
+    *왜:*
+    > 작은 디바이스에서는 뷰포트보다 큰 이미지가 필요하지 않습니다. 서로 다른 크기의 이미지를 여러 버전으로 제공하는 것을 추천합니다.
 
-    *How:*
-    > ⁃ Create different image sizes for the devices you want to target.
-    ⁃ Use `srcset` and `picture` to deliver multiple variants of each image.
+    *어떻게:*
+    > ⁃ 디바이스에 따라 다른 크기의 이미지를 만드세요.
+    ⁃ `srcset`과 `picture`를 사용해 각 이미지의 여러 버전을 제공하세요.
 
      * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
@@ -388,28 +387,28 @@ List of the tools you can use to test or monitor your website or application:
 
 ![javascript]
 
-- [ ] **JS Minification:** ![high] All JavaScript files are minified, comments, white spaces and new lines are removed from production files *(still valid if using HTTP/2)*.
+- [ ] **JS 압축:** ![high] CSS 파일을 압축하고, 최종 파일에서 주석, 공백, 줄바꿈을 제거합니다. *(HTTP/2에서도 여전히 유효합니다.)*
 
-    *Why:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your JavaScript files and speed up your site's page load times and obviously lighten the download for your user.
+    *왜:*
+    > 불필요한 공백, 주석, 개행을 제거하면 자바스크립트 파일의 크기를 줄이고 페이지의 로딩 속도를 높일 수 있습니다.그리고 사용자의 다운로드 시간을 줄일 수 있습니다.
 
-    *How:*
-    > ⁃ Use the tools suggested below to minify your files automatically before or during your build or your deployment.
+    *어떻게:*
+    > ⁃ 개발이나 빌드 중, 또는 그 전에 파일을 자동으로 압축해주는 툴을 사용하세요.
 
     * 📖 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
     * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
 
-* [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embed in the middle of your body. Regroupe your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
+* [ ] **JavaScript 안에 두지 않기:** ![medium] *(웹사이트에서만 유효합니다.)* 여러 자바스크립트 코드를 바디 중간에 두지 마세요. 자바스크립트 코드를 다시 그룹화해 외부 파일이나 `<head>` 또는 페이지의 마지막(`</body>` 이전)에 두도록 하세요.
 
-    *Why:*
-    > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
+    *왜:*
+    > 자바스트립트 임베디드 코드를 `<body>`에 두면 DOM이 구성되는 과정에서 코드가 로드되기 때문에 페이지 속도를 떨어뜨릴 수 있습니다. 가장 좋은 옵션은 외부 파일을 `async` 또는 `defer` 속성과 함께 사용하여 DOM 로딩을 막지 않도록하는 것입니다. 또 다른 옵션은 스크립트를 `<head>`에 두는 것입니다. 대부분의 시간 분석 코드 또는 DOM이 주요 처리부분에 도달하기 전에 로드되어야 하는 작은 스크립트를 둘 수 있습니다.
 
-    *How:*
-    > ⁃ Ensure that all your files are loaded using `async` or `defer` and decide wisely the code that you will need to inject in your `<head>`.
+    *어떻게:*
+    > ⁃ 모든 파일이 `async` 또는 `defer`를 통해 로드되는지 확인하세요. 그리고 `<head>`에 어떤 코드를 둘지 현명하게 결정하세요.
 
      * 📖 [11 Tips to Optimize JavaScript and Improve Website Loading Speeds](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
 
-* [ ] **Non-blocking JavaScript:** ![high] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+* [ ] **Non-blocking 자바스크립트:** ![high] 자바스크립트 파일을 비동기적으로 로드하기 위해 `async`를 사용하거나 지연시키기 위해 `defer` 속성을 사용하세요.
 
     ```html
     <!-- Defer Attribute -->
@@ -419,45 +418,45 @@ List of the tools you can use to test or monitor your website or application:
     <script async src="foo.js">
     ```
 
-    *Why:*
-    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fech and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
+    *왜:*
+    > 자바스크립트는 HTML 문서의 파싱을 차단하기 때문에, 파서는 `<script>` 태그에 도달할 때 (특히 `<head>` 안에 있을 때) 파싱을 멈추고 스크립트를 실행합니다. 스크립트를 페이지의 상단에 두는 경우 `async` 또는 `defer`를 사용하는 것이 적극 권장됩니다만, 만약 `</body>` 태그 바로 앞에 스크립트를 두는 경우 중요도가 떨어집니다. 하지만 언제나 이 속성을 사용하여 성능 이슈를 피하는 것은 좋은 습관입니다.
 
-    *How:*
-    > ⁃ Add `async` (if the script don't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag.
-    ⁃ If your have small scripts, maybe use inline script place above async scripts.
-
+    *어떻게:*
+    > ⁃ `async` (만약 스크립트가 다른 스크립트에 의존하지 않을 경우) 또는 `defer` (만약 스크립트가 비동기 스크립트에 의존할 경우) 속성을 스크립트 태그에 추가하세요.
+    ⁃ 만약 스크립트가 작다면, 비동기 스크립트 위에 인라인 스크립트를 둘 수도 있습니다.
+    
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
 
-* [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla Javascript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
+* [ ] **최적화와 JS 라이브러리 업데이트:** ![medium] 프로젝트에는 라이브러리가 필요하며 (단순한 기능을 위해 바닐라 자바스크립트를 지향하세요.), 이들을 최신버전으로 업데이트하고 불필요한 메소드들이 당신의 자바스크립트 코드를 압도하지 않도록 하세요.
 
-    *Why:*
-    > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
-
-    *How:*
-    > ⁃ If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your librairies.
+    *왜:*
+    > 대부분의 경우, 새로운 버전은 최적화되고 보안 패치가 적용됩니다. 페이지의 속도를 높이기 위해 코드를 최적화해야 하며, 웹사이트나 앱을 느리게 만들지 않기 위해 오래된 플러그인을 사용하지 않는지 확인해야 합니다.
+    
+    *어떻게:*
+    > ⁃ 만약 프로젝트가 NPM 패키지들을 사용한다면, [npm-check](https://www.npmjs.com/package/npm-check)가 라이브러리를 업그레이드 / 업데이트하는 데 유용할 것입니다.
 
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external librairies, most of the time, you can use a lighter library for a same functionnality.
+- [ ] **디펜던시 크기 제한:** ![low] 외부 라이브러리를 현명하게 사용하세요. 대부분의 경우, 똑같은 기능을 하지만 더 가벼운 라이브러리를 찾을 수 있습니다.
 
-    *Why:*
-    > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
+    *왜:*
+    > 745 000 패키지 중 사용하려는 패키지 하나를 [npm](https://www.npmjs.com/)에서 찾을 수 있습니다. 하지만 가장 좋은 패키지를 골라야 합니다. 예를 들어, MomentJS는 굉장한 라이브러리지만, 많은 메소드를 사용하지 않을 것입니다. Day.js가 만들어진 이유죠. Day.js 2kB vs Moment 16.4kB gz 입니다.
 
-    *How:*
-    > ⁃ Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package downloads counts or [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies.
+    *어떻게:*
+    > ⁃ 항상 더 가볍고 좋은 라이브러리를 찾기 위해 비교하세요. [npm trends](http://www.npmtrends.com/)와 같은 툴을 이용해 NPM 다운로드 수를 비교하거나 [Bundlephobia](https://bundlephobia.com/)를 통해 디펜던시의 크기를 알 수 있습니다.
 
     * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
     * 📖 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
     * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
-- [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
+- [ ] **JavaScript 프로파일링:** ![medium] 자바스크립트 파일의 성능 문제를 체크하세요. (CSS도 같이 체크하세요.)
 
-    *Why:*
-    > JavaScript complexity can slow down runtime performance. Identifing these possible issues are essential to offer the smoothest user experience.
+    *왜:*
+    > 자바스크립트 복잡도는 런타임 성능을 떨어뜨릴 수 있습니다. 위험성이 있는 이슈를 확인하는 것은 매끄러운 사용자 경험을 제공하는 데 필수적입니다.
 
-    *How:*
-    > ⁃ Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
+    *어떻게:*
+    > ⁃ 크롬 개발자 도구의 타임라인 툴을 이용해 스크립트 이벤트를 테스트하고 너무 오랜 시간을 소모하는 이벤트를 찾아내세요.
 
      * 📖 [Speed Up JavaScript Execution  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
     * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
@@ -470,41 +469,42 @@ List of the tools you can use to test or monitor your website or application:
 
 ![server-side]
 
-- [ ] **Webpage size < 1500 KB:** ![high] (but ideally < 500 KB) Reduce the size of your page + resources as much as you can.
+- [ ] **웹페이지 크기 < 1500 KB:** ![high] (이상적인 크기 < 500 KB) 페이지의 크기 + 리소스를 최대한 줄이세요 
 
-    *Why:*
-    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending your target users, connexion, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
+    *왜:*
+    > 500 KB 미만이 이상적이지만 웹의 상태에 따라 킬로바이트의 중앙값이 1500 KB 정도로 표시됩니다. (모바일에서도 그렇습니다.) 최상의 사용자 경험을 제공하려면 타겟 사용자, 연결, 디바이스에 따라 총 킬로바이트를 최대한 줄여야 합니다.
 
-    *How:*
-    > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
+    *어떻게:*
+    > ⁃ 프론트엔드 성능 체크리스트의 모든 규칙들은 리소스와 코드를 최대한 줄이도록 하고 있습니다.
 
     * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
     * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
+    * 🛠 [web - Measure full page size in Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
 
-- [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
+- [ ] **페이지 로드 시간 < 3초:** ![high] 페이지 로드 시간을 최대한 줄여 사용자에게 콘텐츠가 빠르게 전송되도록 하세요.
 
-    *Why:*
-    > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
+    *왜:*
+    > 웹사이트나 앱이 빨라질수록 바운스 증가 가능성이 줄어듭니다. 한편 사용자나 미래의 클라이언트를 잃을 가능성도 줄어듭니다. 이 주제에 대한 많은 연구가 이를 증명합니다.
     
-    *How:*
-    >  ⁃ Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
+    *어떻게:*
+    >  ⁃ [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) 또는 [WebPageTest](https://www.webpagetest.org/)와 같은 온라인 툴을 이용해 무엇이 페이지를 느리게 만드는지 분석하고, 프론트엔드 체크 리스트를 이용해 로드 시간을 개선하세요.
 
     * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
     * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/?_ga=1.155316027.1489996091.1482187369)
     * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
 
-- [ ] **Time To First Byte < 1.3 seconds:** ![high] Reduce as much as you can the time your browser waits before receiving data.
+- [ ] **첫 번째 바이트 시간(TTFB) < 1.3초:** ![high] 브라우저가 데이터를 받기 전까지 대기하는 시간을 최대한 줄이세요.
 
     * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
     * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
 
-* [ ] **Cookie size:** ![medium] If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+* [ ] **쿠키 크기:** ![medium] 만약 쿠키를 사용한다면 각 쿠키가 4096 바이트를 넘어서는 안 되며, 도메인 네임이 20개 이상의 쿠키를 가져서는 안 됩니다.
 
-    *Why:*
-    > cookies is exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+    *왜:*
+    > 쿠키는 HTTP 헤더에서 웹 서버와 브라우저 사이에 교환됩니다. 사용자의 응답 시간에 미치는 영향을 최소화하기 위해서는 쿠키의 크기를 최대한 줄여야 합니다.
 
-    *How:*
-    > ⁃ Eliminate unnecessary cookies
+    *어떻게:*
+    > ⁃ 불필요한 쿠키를 제거하세요.
 
     * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
     * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
@@ -512,22 +512,24 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
     * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
-- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for you website or application.
+- [ ] **HTTP 요청 최소화:** ![high] 항상 모든 파일의 요청이 웹사이트나 어플리케이션에 필수적인지 확인하세요.
 
-- [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
+- [ ] **CDN을 통한 어셋 제공:** ![medium] 전 세계에 콘텐츠를 더 빠르게 제공하기 위해 CDN을 사용하세요.
 
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **Serve files from the same protocol:** ![high] Avoid having your website using HTTPS and serve files coming from source using HTTP.
+- [ ] **동일한 프로토콜에서 파일 제공:** ![high] 웹 사이트에서 HTTPS를 사용하지 않도록하고 HTTP를 이용하는 소스에서 파일을 가져오세요.
 
-- [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
+- [ ] **연결 가능한 파일 제공:** ![high] 연결 불가능한 파일(404)을 요청하지 마세요.
 
-- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
+- [ ] **올바른 HTTP 캐시 헤더 설정:** ![high] 브라우저와 서버 사이 비용이 큰 왕복을 피하도록 HTTP 헤더를 설정하세요. 
 
-- [ ] **GZIP compression is enable:** ![high]
+- [ ] **GZIP / Brotli 압축 활성화:** ![high]
 
- * 📖 [Check GZIP compression](https://checkgzipcompression.com/)
+ * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
+ * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
+ * 📖 [Can I use... Brotli](https://caniuse.com/#feat=brotli)
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -546,15 +548,15 @@ List of the tools you can use to test or monitor your website or application:
 
 ## Translations
 
-The Front-End Performance Checklist wants to also be available in other languages! Don't hesitate to submit your contribution!
+프론트 엔드 성능 체크리스트가 다른 언어로 읽히길 바랍니다! 컨트리뷰션을 망설이지 말아주세요!
 
 ## Contributing
 
-**Open an issue or a pull request to suggest changes or additions.**
+**이슈를 열거나 풀 리퀘스트를 보내 변경 사항이나 추가점을 제안하세요.**
 
 ## Support
 
-If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
+질문이나 제안이 있다면 Gitter나 트위터 사용을 망설이지 마세요:
 
 * [Chat on Gitter](https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
