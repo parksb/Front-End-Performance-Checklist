@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">🎮 더 빠르게 실행되는 프론트엔드 성능 체크리스트</h4>
+<h4 align="center">🎮 더 빠르게 작동하는 프론트엔드 성능 체크리스트</h4>
 <p align="center">한가지 단순한 규칙: "성능을 고려한 설계와 코드"</p>
 
 <p align="center">
@@ -29,6 +29,7 @@
 <p align="center">
   <a href="https://github.com/JohnsenZhou/Front-End-Performance-Checklist">🇨🇳</a>
   <a href="https://github.com/WilliamDASILVA/Front-End-Performance-Checklist">🇫🇷</a>
+  <a href="https://github.com/ParkSB/Front-End-Performance-Checklist">🇰🇷</a>  
   <a href="https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹</a>
   <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
 </p>
@@ -47,7 +48,7 @@
 4. **[Images](#images)**
 5. **[JavaScript](#javascript)**
 6. **[Server](#server) (in progress)**
-7. **[JS Frameworks](#js-frameworks) (in progress)**
+7. **[JS Frameworks](#performances-and-js-frameworks) (in progress)**
 
 ## 소개
 
@@ -68,11 +69,12 @@
 웹사이트나 어플리케이션을 모니터링하고 테스트할 때 사용할 수 있는 도구들입니다:
 
  * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
- * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/)
+ * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+ * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
  * 📖 [Pagespeed - The tool and optimization guide](https://varvy.com/pagespeed/)
- * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
+ * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
  * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
  * 🛠 [Calibre](https://calibreapp.com/)
  * 🛠 [Website Speed Test | Check Web Performance &raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
@@ -80,13 +82,16 @@
  * 🛠 [Uptime Robot](https://uptimerobot.com)
  * 🛠 [SpeedCurve: Monitor front-end performance](https://speedcurve.com)
  * 🛠 [PWMetrics - CLI tool and lib to gather performance metrics](https://github.com/paulirish/pwmetrics)
+ * 🛠 [Varvy - Page speed optimization]( https://varvy.com/pagespeed/)
 
 ### 참고자료
 
- * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4)
+ * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
  * 📖 [Get Started With Analyzing Runtime Performance  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
  * 📖 [State of the Web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
  * 📖 [Page Weight Doesn't Matter](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
+ * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
+ * 📖 [fabkrum/web-performance-resources: Up to date collection of valuable web performance resources](https://github.com/fabkrum/web-performance-resources)
 ---
 
 ## HTML
@@ -306,8 +311,8 @@
     ```
 
     *왜:*
-    > 웹 사이트를 열면, 디바이스는 사이트의 위치와 연결해야 하는 서버를 찾아야 합니다. 브라우저는 DNS 서버를 찾고, 리소스 (폰트, CSS 파일...) 수집이 끝나기 전, 조회가 완료될 때까지 대기해야 합니다. 이때 prefetches와 preconnects가 브라우저를 허용합니다.
-    
+    > 웹 사이트에 접속하면, 디바이스는 사이트의 위치와 연결해야 하는 서버를 찾아야 합니다. 브라우저는 DNS 서버를 찾고, 리소스 (폰트, CSS 파일...) 수집이 끝나기 전, 조회가 완료될 때까지 대기해야 합니다. 이때 prefetches와 preconnects는 브라우저가 DNS 정보를 찾고 폰트 파일을 호스팅하는 서버에 대한 TCP 연결을 허용합니다. 이렇게 하면 브라우저가 폰트 정보와 서버에 요청해야 하는 폰트 파일이 담긴 css 파일을 파싱할 때 미리 DNS 정보를 확인하고, 커넥션 풀에 있는 서버에 대한 개방형 연결을 준비함으로써 성능을 높일 수 있습니다.
+
     *어떻게:*
     > ⁃ 웹폰트를 사전 수집하기 전에, 웹사이트를 평가하기 위해 웹 페이지 테스트를 사용하세요. <br>
     ⁃ teal colored DNS를 찾고 요청 중인 호스트를 확인하세요. <br>
@@ -351,6 +356,7 @@
     * 🛠 [Kraken.io - Online Image Optimizer](https://kraken.io/web-interface)
     * 🛠 [Compressor.io - optimize and compress JPEG photos and PNG images](https://compressor.io/compress)
     * 🛠 [Cloudinary - Image Analysis Tool](https://webspeedtest.cloudinary.com)
+    * 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
 
 
 * [ ] **이미지 형식:** ![high] 적절한 이미지 형식을 선택하세요.
@@ -455,6 +461,7 @@
     ⁃ 만약 스크립트가 작다면, 비동기 스크립트 위에 인라인 스크립트를 둘 수도 있습니다.
     
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
+    * 📖 [Defer loading javascript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
 * [ ] **최적화와 JS 라이브러리 업데이트:** ![medium] 프로젝트에는 라이브러리가 필요하며 (단순한 기능을 위해 바닐라 자바스크립트를 지향하세요.), 이들을 최신버전으로 업데이트하고 불필요한 메소드들이 당신의 자바스크립트 코드를 압도하지 않도록 하세요.
 
@@ -501,7 +508,7 @@
 - [ ] **웹페이지 크기 < 1500 KB:** ![high] (이상적인 크기 < 500 KB) 페이지의 크기 + 리소스를 최대한 줄이세요 
 
     *왜:*
-    > 500 KB 미만이 이상적이지만 웹의 상태에 따라 킬로바이트의 중앙값이 1500 KB 정도로 표시됩니다. (모바일에서도 그렇습니다.) 최상의 사용자 경험을 제공하려면 타겟 사용자, 연결, 디바이스에 따라 총 킬로바이트를 최대한 줄여야 합니다.
+    > 500 KB 미만이 이상적이지만 웹의 상태에 따라 킬로바이트의 중앙값이 1500 KB 정도로 표시됩니다. (모바일에서도 그렇습니다.) 최상의 사용자 경험을 제공하려면 타겟 사용자, 네트워크 연결, 디바이스에 따라 총 킬로바이트를 최대한 줄여야 합니다.
 
     *어떻게:*
     > 프론트엔드 성능 체크리스트의 모든 규칙들은 리소스와 코드를 최대한 줄이도록 하고 있습니다.
@@ -526,6 +533,7 @@
 
     * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
     * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
+    * 📖 [Time to First Byte (TTFB)](https://varvy.com/pagespeed/ttfb.html)
     * 🛠 [Global latency testing tool](https://latency.apex.sh)    
 
 * [ ] **쿠키 크기:** ![medium] 만약 쿠키를 사용한다면 각 쿠키가 4096 바이트를 넘어서는 안 되며, 도메인 네임이 20개 이상의 쿠키를 가져서는 안 됩니다.
@@ -544,6 +552,9 @@
 
 - [ ] **HTTP 요청 최소화:** ![high] 항상 모든 파일의 요청이 웹사이트나 어플리케이션에 필수적인지 확인하세요.
 
+ * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
+ * 📖 [Combine external javascript](https://varvy.com/pagespeed/combine-external-javascript.html)
+
 - [ ] **CDN을 통한 어셋 제공:** ![medium] 전 세계에 콘텐츠를 더 빠르게 제공하기 위해 CDN을 사용하세요.
 
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
@@ -553,7 +564,11 @@
 
 - [ ] **연결 가능한 파일 제공:** ![high] 연결 불가능한 파일(404)을 요청하지 마세요.
 
-- [ ] **올바른 HTTP 캐시 헤더 설정:** ![high] 브라우저와 서버 사이 비용이 큰 왕복을 피하도록 HTTP 헤더를 설정하세요. 
+ * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
+
+- [ ] **올바른 HTTP 캐시 헤더 설정:** ![high] 브라우저와 서버 사이 비용이 큰 왕복을 피하도록 HTTP 헤더를 설정하세요.
+
+ * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
 
 - [ ] **GZIP / Brotli 압축 활성화:** ![high]
 
@@ -566,13 +581,24 @@
 ---
 ## Performances and JS Frameworks
 
-### Vue
-
 ### React
 
  * 📖 [Optimizing Performance - React](https://reactjs.org/docs/optimizing-performance.html)
  * 📖 [React image manipulation | Cloudinary](https://cloudinary.com/documentation/react_image_manipulation)
  * 📖 [Debugging React performance with React 16 and Chrome Devtools.](https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad)
+
+### Vue
+
+## Performances and CMS
+
+### Wordpress
+
+#### Articles
+
+ * 📖 [19 Tips to Speed Up WordPress Performance (Updated)](https://www.wpbeginner.com/wordpress-performance-speed/)
+ * 📖 [Speed Up Your WordPress - How to Save Images Optimized for Web](https://www.wpbeginner.com/beginners-guide/speed-wordpress-save-images-optimized-web/)
+
+#### Plugins recommended
 
 ---
 
@@ -632,7 +658,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/front-end-checklist/sponsor/9/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/9/avatar.svg"></a>
 ## License
 
-[MIT](LICENCE.md)
+[MIT](LICENCE)
 
 All icons are provided by [Icons8](https://icons8.com/)
 
