@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a>
+  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a> • <a href="http://feedback.frontendchecklist.io/">Roadmap</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
 </p>
 
 <p align="center">
@@ -70,6 +70,7 @@
 
  * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
  * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
+ * 🛠 [Treo: Page Speed Monitoring](https://treo.sh/?ref=perfchecklist)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
  * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
@@ -461,7 +462,7 @@
     ⁃ 만약 스크립트가 작다면, 비동기 스크립트 위에 인라인 스크립트를 둘 수도 있습니다.
     
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
-    * 📖 [Defer loading javascript](https://varvy.com/pagespeed/defer-loading-javascript.html)
+    * 📖 [Defer loading Javascript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
 * [ ] **최적화와 JS 라이브러리 업데이트:** ![medium] 프로젝트에는 라이브러리가 필요하며 (단순한 기능을 위해 바닐라 자바스크립트를 지향하세요.), 이들을 최신버전으로 업데이트하고 불필요한 메소드들이 당신의 자바스크립트 코드를 압도하지 않도록 하세요.
 
@@ -553,7 +554,7 @@
 - [ ] **HTTP 요청 최소화:** ![high] 항상 모든 파일의 요청이 웹사이트나 어플리케이션에 필수적인지 확인하세요.
 
  * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
- * 📖 [Combine external javascript](https://varvy.com/pagespeed/combine-external-javascript.html)
+ * 📖 [Combine external Javascript](https://varvy.com/pagespeed/combine-external-javascript.html)
 
 - [ ] **CDN을 통한 어셋 제공:** ![medium] 전 세계에 콘텐츠를 더 빠르게 제공하기 위해 CDN을 사용하세요.
 
@@ -591,7 +592,7 @@
 
 ## Performances and CMS
 
-### Wordpress
+### WordPress
 
 #### Articles
 
@@ -610,6 +611,7 @@
 * 🇨🇳 Chinese: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
 * 🇷🇺 Russian: [lex111/Front-End-Performance-Checklist](https://github.com/lex111/Front-End-Performance-Checklist)
 * 🇫🇷 French: [WilliamDASILVA/Front-End-Performance-Checklist](https://github.com/WilliamDASILVA/Front-End-Performance-Checklist)
+* 🇰🇷 Korean: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
 
 ## Contributing
 
