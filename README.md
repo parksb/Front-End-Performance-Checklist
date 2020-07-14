@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170">
+  <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist"><img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170"></a>
   <br>
   <br>
   프론트엔드 성능 체크리스트
@@ -14,8 +14,8 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
-  <a href="https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link">
-    <img src="https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square" alt="Gitter">
+  <a href="https://discord.gg/btHQRkm">
+    <img src="https://img.shields.io/badge/chat-on_discord-4837E2.svg?style=flat-square" alt="Discord">
   </a>
     <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Licence MIT">
@@ -29,9 +29,10 @@
 <p align="center">
   <a href="https://github.com/JohnsenZhou/Front-End-Performance-Checklist">🇨🇳</a>
   <a href="https://github.com/WilliamDASILVA/Front-End-Performance-Checklist">🇫🇷</a>
-  <a href="https://github.com/ParkSB/Front-End-Performance-Checklist">🇰🇷</a>  
+  <a href="https://github.com/ParkSB/Front-End-Performance-Checklist">🇰🇷</a>
   <a href="https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹</a>
   <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
+  <a href="https://github.com/GameWith/Front-End-Performance-Checklist">🇯🇵</a>
 </p>
 
 <p align="center">
@@ -62,7 +63,7 @@
 
 * ![Low][low]는 해당 항목이 프로젝트에 **낮은** 우선 순위와 영향을 가진다는 의미입니다.
 * ![Medium][medium]은 해당 항목이 프로젝트에 **중간** 정도의 우선 순위와 영향을 가진다는 의미입니다. 이 항목에 대해 고민하는 것을 피해선 안 됩니다.
-* ![High][high]는 해당 항목이 프로젝트에 **높은** 우선 순위와 영향을 가진다는 의미입니다. 이 규칙을 피할 수 없으며, 수정 사항을 적용해야 합니다.
+* ![High][high]는 해당 항목이 프로젝트에 **높은** 우선 순위와 영향을 가진다는 의미입니다. 이 규칙을 피할 수 없으며, 권장되는 수정 사항을 적용해야 합니다.
 
 ### 성능 도구
 
@@ -73,9 +74,9 @@
  * 🛠 [Treo: Page Speed Monitoring](https://treo.sh/?ref=perfchecklist)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+ * 🛠 [Web.dev](https://web.dev/measure)
  * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
- * 📖 [Pagespeed - The tool and optimization guide](https://varvy.com/pagespeed/)
- * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
+ * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
  * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
  * 🛠 [Calibre](https://calibreapp.com/)
  * 🛠 [Website Speed Test | Check Web Performance &raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
@@ -84,15 +85,28 @@
  * 🛠 [SpeedCurve: Monitor front-end performance](https://speedcurve.com)
  * 🛠 [PWMetrics - CLI tool and lib to gather performance metrics](https://github.com/paulirish/pwmetrics)
  * 🛠 [Varvy - Page speed optimization]( https://varvy.com/pagespeed/)
+ * 🛠 [Lighthouse - Google]( https://developers.google.com/web/tools/lighthouse/#devtools)
+ * 🛠 [Checkbot browser extension - Checks for web performance best practices](https://www.checkbot.io/)
+ * 🛠 [Yellow Lab Tools | Online test to help speeding up heavy web pages](https://yellowlab.tools/)
+ * 🛠 [Speedrank - Web Performance Monitoring](https://speedrank.app/)
+ * 🛠 [DebugBear - Monitor website performance and Lighthouse scores](https://www.debugbear.com/)
+ * 🛠 [packtracker.io - Check your webpack bundle size on every pull request.](https://packtracker.io/)
+ * 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
 
 ### 참고자료
 
  * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
- * 📖 [Get Started With Analyzing Runtime Performance  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
+ * [AddyOsmani.com - Start Performance Budgeting](https://addyosmani.com/blog/performance-budgets/)
+ * 📖 [Get Started With Analyzing Runtime Performance  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
  * 📖 [State of the Web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
  * 📖 [Page Weight Doesn't Matter](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
+ * 📖 [Front-End Performance Checklist 2018 [PDF, Apple Pages]](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/)
+ * 📖 [Designing for Performance Weighing Aesthetics and Speed - By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
  * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
  * 📖 [fabkrum/web-performance-resources: Up to date collection of valuable web performance resources](https://github.com/fabkrum/web-performance-resources)
+ * 📖 [Checkbot - Web Speed Best Practices](https://www.checkbot.io/guide/speed/)
+ * 🛠 [Progressive Tooling - A list of community-built, third-party tools that can be used to improve page performance](https://progressivetooling.com/)
+
 ---
 
 ## HTML
@@ -102,7 +116,7 @@
 - [ ] **HTML 압축:** ![medium] HTML 코드를 압축하고, 최종 파일에서 주석, 공백, 줄바꿈을 제거합니다.
 
     *왜:*
-    > 불필요한 공백, 주석, 개행을 제거하면 HTML의 크기를 줄이고 페이지의 로딩 속도를 높일 수 있습니다.그리고 사용자의 다운로드 시간을 줄일 수 있습니다.
+    > 불필요한 공백, 주석, 속성을 제거하면 HTML의 크기를 줄이고 페이지의 로딩 속도를 높일 수 있으며 사용자의 다운로드 시간을 줄일 수 있습니다.
 
     *어떻게:*
     > 대부분의 프레임워크에는 웹페이지를 압축시키는 플러그인이 있으며, 여러 NPM 모듈을 사용해 이 작업을 자동으로 처리할 수 있습니다.
@@ -110,38 +124,6 @@
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
     * 🛠 [Online HTML Compressor](http://refresh-sf.com)
     * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
-
-- [ ] **불필요한 주석 제거:** ![low] 페이지에서 주석이 지워졌는지 확인합니다.
-
-    *왜:*
-    > 주석은 사용자에게 필요하지 않기 때문에 최종 파일에서 지워져야 합니다. 라이브러리의 원본을 유지하고 싶은 경우에는 주석을 남겨둘 수 있습니다.
-
-    *어떻게:*
-    > 대부분의 경우 HTML 압축 플러그인을 사용해 주석을 지울 수 있습니다.
-
- * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
-
-- [ ] **불필요한 속성 제거:** ![low] `type="text/javascript"`이나 `type="text/css`와 같은 타입 속성은 더 이상 필요하지 않으며, 지워야 합니다.
-
-    ```html
-    <!-- Before HTML5 -->
-    <script type="text/javascript">
-        // Javascript code
-    </script>
-
-    <!-- Today -->
-    <script>
-        // Javascript code
-    </script>
-    ```
-
-    *왜:*
-    > HTML5는 text/css와 text/javascript를 기본으로 지원하기 때문에 타입 속성이 불필요합니다. 웹이나 앱에서 사용되지 않는 코드는 지워야 하며, 불필요한 코드는 페이지를 무겁게 만듭니다.
-
-    *어떻게:*
-    > `<link>`와 `<script>`에 타입 속성이 남아 있는지 확인하세요.
-
-    * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
 - [ ] **CSS 태그를 자바스크립트 태그 앞에 두기:** ![high] CSS가 항상 자바스크립트 코드 전에 로드되는지 확인하세요.
 
@@ -167,6 +149,18 @@
 
 - [ ] **iframe 최소화:** ![high] 다른 기술적 가능성이 없을 때만 iframe을 사용하고, 최대한 iframe을 사용하지 않도록 하세요.
 
+- [ ] **Pre-load optimization with prefetch, dns-prefetch and prerender:** ![low] Popular browsers can use directive on `<link>` tag and "rel" attribute with certain keywords to pre-load specific URLs.
+
+    *Why:*
+    > Prefetching allows a browser to silently fetch the necessary resources needed to display content that a user might access in the near future. The browser is able to store these resources in its cache and speed up the way web pages load when they are using different domains for page resources. When a web page has finished loading and the idle time has passed, the browser begins downloading other resources. When a user go in a particular link (already prefetched), the content will be instantly served.
+
+    *How:*
+    > ⁃ Ensure that `<link>` is in your `<head>` section.
+
+    * 📖 [What Is Prefetching and Why Use It](https://www.keycdn.com/support/prefetching)
+    * 📖 [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
+    * 📖 [What is Preload, Prefetch, and Preconnect](https://www.keycdn.com/blog/resource-hints)
+
 **[⬆ back to top](#table-of-contents)**
 
 ## CSS
@@ -176,7 +170,7 @@
 - [ ] **CSS 압축:** ![high] CSS 파일을 압축하고, 최종 파일에서 주석, 공백, 줄바꿈을 제거합니다.
 
     *왜:*
-    > CSS 파일을 압축하면 클라이언트에게 더 적은 데이터를 전송하게 되며, 콘텐츠가 더 빨리 로드됩니다. CSS 파일을 압축하는 것은 중요한 일입니다. 이는 대역폭과 리소스 사용을 줄이고자 하는 모든 비즈니스에 도움이 됩니다.
+    > CSS 파일을 압축하면 클라이언트에게 더 적은 데이터를 전송하게 되며, 콘텐츠가 더 빨리 로드됩니다. 운영에서 CSS 파일을 압축하는 것은 중요한 일입니다. 이는 대역폭과 리소스 사용을 줄이고자 하는 모든 비즈니스에 있어 사용자에게 도움이 됩니다.
 
     *어떻게:*
     > 개발이나 빌드 중, 또는 그 전에 파일을 자동으로 압축해주는 툴을 사용하세요.
@@ -190,18 +184,19 @@
     ```html
 
     <!-- Not recommended -->
-    <script src="foo.js"></script>
-    <script src="ajax.js"></script>
+    <link rel="stylesheet" href="foo.css"/>
+    <link rel="stylesheet" href="bar.css"/>
 
     <!-- Recommended -->
-    <script src="combined.js"></script>
+    <link rel="stylesheet" href="foobar.css"/>
     ```
 
     *왜:*
     > 여전히 HTTP/1을 사용하고 있다면 파일을 합칠 필요가 있습니다. 다만 서버가 HTTP/2라면 꼭 그렇지 않습니다. (테스트를 해봐야 합니다.)
 
     *어떻게:*
-    > 개발이나 빌드 중, 또는 그 전에 파일을 합쳐주는 온라인 툴, 플러그인을 사용하세요. ⁃ 물론 합치는 작업이 프로젝트를 방해하지는 않도록 하세요.
+    > 개발이나 빌드 중, 또는 그 전에 파일을 합쳐주는 온라인 툴, 플러그인을 사용하세요. <br>
+    ⁃ 물론 합치는 작업이 프로젝트를 방해하지는 않도록 하세요.
 
     * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
     * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
@@ -224,17 +219,7 @@
     * 📖 [Preloading content with rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
     * 📖 [Preload: What Is It Good For? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
 
-- [ ] **CSS 클래스의 길이:** ![low] 클래스의 길이가 HTML과 CSS 파일에 (결과적으로) 영향을 줄 수 있습니다.
-
-    *왜:*
-    > 성능 영향은 문제의 여지가 있으며, 이름을 짓는 전략을 결정하는 것은 스타일시트의 유지관리에 상당한 영향을 미칠 수 있습니다. 만약 BEM을 사용하고 있다면, 경우에 따라 클래스 이름에 필요 이상의 문자를 사용할 수 있습니다. 이름을 현명하게 정하는 것은 언제나 중요한 일입니다.
-
-    *어떻게:*
-    > 문자의 길이에 제한을 둔다는 것이 누군가에게는 흥미로울 수 있습니다만, 웹사이트를 여러 컴포넌트로 분리하면 클래스와 클래스의 길이를 줄이는데 도움이 될 수 있습니다.
-    
-    * 🛠 [long vs short class · jsPerf](https://jsperf.com/long-vs-short-class)
-
-- [ ] **사용되지 않는 CSS:** ![medium] 사용되지 않는 CSS 선택자를 지우세요.
+- [ ] **Unused CSS:** ![medium] Remove unused CSS selectors.
 
     *왜:*
     > 사용하지 않는 CSS 선택자를 지우면 파일의 크기를 줄일 수 있으며, 로딩 속도를 높일 수 있습니다.
@@ -250,7 +235,7 @@
 * [ ] **CSS 크리티컬:** ![high] CSS 크리티컬 (또는 "어보브 더 폴드")은 페이지의 보이는 부분을 렌더링하는 데 사용되는 모든 CSS를 수집합니다. 이는 주요 CSS 호출 전, 그리고 `<style></style>` 사이에 한 줄로 임베디드됩니다. (가능하면 압축됩니다.)
 
     *왜:*
-    > CSS 크리티컬을 넣으면 서버 요청을 줄여 웹 페이지의 렌더링 속도를 높일 수 있습니다.
+    > 중요한 CSS를 인라인으로 넣으면 서버 요청을 줄여 웹 페이지의 렌더링 속도를 높일 수 있습니다.
 
     *어떻게:*
     > 온라인 툴이나 Addy Osmani가 개발한 것과 같은 플러그인을 사용해 CSS 크리티컬을 생성하세요.
@@ -258,8 +243,9 @@
     * 📖 [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
     * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
     * 📖 [Inlining critical CSS for better web performance | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
-    * 🛠 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
-    * 📖 [Reduce the size of the above-the-fold content](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
+     * 🛠 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
+     * 📖 [Reduce the size of the above-the-fold content
+](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
 
 - [ ] **외부 또는 인라인 CSS:** ![high] 외부 또는 인라인 CSS를 `<body>` 안에 두지 마세요. *(HTTP/2에서는 유효하지 않습니다.)*
 
@@ -277,11 +263,12 @@
     > 종종 중복, 또는 유효성 에러가 CSS 코드에서 발생할 수 있는데, CSS 파일을 분석하고 복잡성을 해결하면 CSS 파일의 속도를 높일 수 있습니다. (브라우저가 더 빨리 읽어 들이기 때문이죠.)
 
     *어떻게:*
-    > CSS 전처리기를 사용해 CSS를 조직해야 합니다. 위에 나열된 일부 온라인 툴이 코드를 분석하고 바로 잡는데 도움이 될 수도 있습니다.
+    > CSS 전처리기를 사용해 CSS를 조직해야 합니다. 아래에 나열된 일부 온라인 툴이 코드를 분석하고 바로 잡는데 도움이 될 수도 있습니다.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
-    * 📖 [CSS Stats](https://cssstats.com/)
+    * 🛠 [CSS Stats](https://cssstats.com/)
     * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
+    * 🛠 [Project Wallace](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -294,7 +281,7 @@
 - [ ] **웹폰트 포맷:** ![medium] 웹 프로젝트 또는 어플리케이션에서 WOFF2를 사용하세요.
 
     *왜:*
-    > 구글에 따르면, WOFF 2.0 웹 폰트 압축 포맷은 WOFF 1.0보다 평균 30% 더 많이 쓰입니다. TTF와 WOFF 2.0, WOFF 1.0을 대체제로 사용하는 것이 좋습니다.
+    > Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
 
     *어떻게:*
     > 새로운 폰트를 구매하기 전에 제공자가 WOFF2 포맷을 제공하는지 체크하세요. 만약 무료 폰트를 사용한다면, Font Squirrel을 통해 필요한 포맷을 생성할 수 있습니다. 
@@ -323,6 +310,7 @@
     * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
     * 📖 [Ultimate Guide to Browser Hints: Preload, Prefetch, and Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
     * 📖 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
+    * 🛠 [typekit/webfontloader: Web Font Loader gives you added control when using linked fonts via @font-face.](https://github.com/typekit/webfontloader)
 
 - [ ] **웹 폰트 크기:** ![medium] 웹폰트 크기가 300kb를 넘지 않도록 하세요. (모든 파생 요소 포함)
 
@@ -353,18 +341,20 @@
     ⁃ 툴을 사용하고 압축 레벨을 85 미만으로 하세요.
     
     * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
+    * 📖 [Essential Image Optimization - An eBook by Addy Osmani](https://images.guide/)
     * 🛠 [TinyJPG – Compress JPEG images intelligently](https://tinyjpg.com/)
     * 🛠 [Kraken.io - Online Image Optimizer](https://kraken.io/web-interface)
     * 🛠 [Compressor.io - optimize and compress JPEG photos and PNG images](https://compressor.io/compress)
     * 🛠 [Cloudinary - Image Analysis Tool](https://webspeedtest.cloudinary.com)
+    * 🛠 [ImageEngine - Image Webpage Loading Test](https://demo.imgeng.in)
     * 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
 
 
-* [ ] **이미지 형식:** ![high] 적절한 이미지 형식을 선택하세요.
+* [ ] **이미지 형식:** ![high] 적절한 이미지 형식을 선택하세요.    
 
     *왜:*
-    > 웹 사이트를 느리게 만들지 않는 이미지 형식을 사용하세요. 
-    
+    > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the nex-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
+
     *어떻게:*
     > ⁃ [Lighthouse](https://developers.google.com/web/tools/lighthouse/)를 사용해 이미지가 최종적으로 **차세대 포맷**(JPEG 2000m JPEG XR 또는 WebP)을 사용할 수 있는지 확인하세요. <br>
     ⁃ 다른 포맷을 비교하세요. 어떨 때는 PNG8을 사용하는 것이 PNG16을 사용하는 것보다 낫고, 어떨 때는 그렇지 않습니다.
@@ -393,16 +383,15 @@
 
 * [ ] **레이지 로딩:** ![medium] 이미지를 레이지 로딩시키세요. (noscript 폴백이 언제나 제공됩니다.)
 
-    *왜:*
-    > 이렇게 하면 현재 페이지의 반응 시간을 개선하고 사용자에게 필요하지 않은 이미지를 로딩하지 않을 수 있습니다.
-    
     *어떻게:*
     > ⁃ [Lighthouse](https://developers.google.com/web/tools/lighthouse/)를 사용해 얼마나 많은 **이미지가 오프스크린되는 지** 확인하세요. <br>
-    ⁃ 이미지를 레이지 로드시켜주는 자바스크립트 플러그인을 사용하세요.
+    ⁃ 이미지를 레이지 로드시켜주는 자바스크립트 플러그인을 사용하세요. Make sure you target offscreen images only. <br>
+    ⁃ Also make sure to lazyload alternative images shown at mouseover or upon other user actions.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
-    * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
+    * 🛠 [mfranzke/loading-attribute-polyfill: GitHub](https://github.com/mfranzke/loading-attribute-polyfill/)
+    * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
     * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
 * [ ] **반응형 이미지:** ![medium] 디스플레이 크기에 맞는 이미지를 사용하세요.
@@ -411,7 +400,7 @@
     > 작은 디바이스에서는 뷰포트보다 큰 이미지가 필요하지 않습니다. 서로 다른 크기의 이미지를 여러 버전으로 제공하는 것을 추천합니다.
 
     *어떻게:*
-    > ⁃ 디바이스에 따라 다른 크기의 이미지를 만드세요. <br>
+    > ⁃ 원하는 타겟 디바이스에 따라 다른 크기의 이미지를 만드세요. <br>
     ⁃ `srcset`과 `picture`를 사용해 각 이미지의 여러 버전을 제공하세요.
 
      * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
@@ -440,7 +429,7 @@
     > 자바스트립트 임베디드 코드를 `<body>`에 두면 DOM이 구성되는 과정에서 코드가 로드되기 때문에 페이지 속도를 떨어뜨릴 수 있습니다. 가장 좋은 옵션은 외부 파일을 `async` 또는 `defer` 속성과 함께 사용하여 DOM 로딩을 막지 않도록하는 것입니다. 또 다른 옵션은 스크립트를 `<head>`에 두는 것입니다. 대부분의 시간 분석 코드 또는 DOM이 주요 처리부분에 도달하기 전에 로드되어야 하는 작은 스크립트를 둘 수 있습니다.
 
     *어떻게:*
-    > 모든 파일이 `async` 또는 `defer`를 통해 로드되는지 확인하세요. 그리고 `<head>`에 어떤 코드를 둘지 현명하게 결정하세요.
+    > 모든 파일이 `async` 또는 `defer`를 통해 로드되는지 확인하세요. 그리고 `<head>`에 삽입할 코드를 현명하게 결정하세요.
 
      * 📖 [11 Tips to Optimize JavaScript and Improve Website Loading Speeds](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
 
@@ -448,10 +437,10 @@
 
     ```html
     <!-- Defer Attribute -->
-    <script defer src="foo.js">
+    <script defer src="foo.js"></script>
 
     <!-- Async Attribute -->
-    <script async src="foo.js">
+    <script async src="foo.js"></script>
     ```
 
     *왜:*
@@ -471,6 +460,7 @@
     
     *어떻게:*
     > 만약 프로젝트가 NPM 패키지들을 사용한다면, [npm-check](https://www.npmjs.com/package/npm-check)가 라이브러리를 업그레이드 / 업데이트하는 데 유용할 것입니다.
+    > [Greenkeeper](https://greenkeeper.io/) can automatically look for your dependencies and suggest an update every time a new version is out.
 
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
@@ -485,6 +475,7 @@
 
     * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
     * 🛠 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
+    * 🛠 [js-dependency-viewer - npm](https://www.npmjs.com/package/js-dependency-viewer)
     * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
 - [ ] **JavaScript 프로파일링:** ![medium] 자바스크립트 파일의 성능 문제를 체크하세요. (CSS도 같이 체크하세요.)
@@ -499,12 +490,31 @@
     * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
     * 📖 [How to Record Heap Snapshots  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots)
     * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
+    * 📖 [30 Tips To Improve Javascript Performance](http://www.monitis.com/blog/30-tips-to-improve-javascript-performance/)
+
+- [ ] **Use of Service Workers:** ![medium] You are using Service Workers in your PWA to cache data or execute possible heavy tasks without impacting the user experience of your application.
+   
+    * 📖 [Service Workers: an Introduction  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/primers/service-workers/)
+    * 📖 [Measuring the Real-world Performance Impact of Service Workers  |  Web  |  Google Developers](https://developers.google.com/web/showcase/2016/service-worker-perf)
+    * 📖 [What Are Service Workers and How They Help Improve Performance](https://www.keycdn.com/blog/service-workers/)
+    * 📹 [How does a service worker work? - YouTube](https://www.youtube.com/watch?v=__xAtWgfzvc)
 
 **[⬆ back to top](#table-of-contents)**
 
 ## Server
 
 ![server-side]
+
+- [ ] **Your website is using HTTPS:** ![high]
+
+    *Why:*
+    > HTTPS is not only for ecommerce websites, but for all websites that are exchanging data. Data shared by a user or data shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
+
+ * 📖 [Why Use HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
+ * 📖 [Enabling HTTPS Without Sacrificing Your Web Performance - Moz](https://moz.com/blog/enabling-https-without-sacrificing-web-performance)
+ * 📖 [How HTTPS Affects Website Performance](https://wp-rocket.me/blog/https-affects-website-performance/)
+ * 📖 [HTTP versus HTTPS versus HTTP2 - The real story | Tune The Web](https://www.tunetheweb.com/blog/http-versus-https-versus-http2/)
+ * 📖 [HTTP vs HTTPS — Test them both yourself](https://www.httpvshttps.com/)
 
 - [ ] **웹페이지 크기 < 1500 KB:** ![high] (이상적인 크기 < 500 KB) 페이지의 크기 + 리소스를 최대한 줄이세요 
 
@@ -527,7 +537,7 @@
     > [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) 또는 [WebPageTest](https://www.webpagetest.org/)와 같은 온라인 툴을 이용해 무엇이 페이지를 느리게 만드는지 분석하고, 프론트엔드 체크 리스트를 이용해 로드 시간을 개선하세요.
 
     * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
-    * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/?_ga=1.155316027.1489996091.1482187369)
+    * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
     * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
 
 - [ ] **첫 번째 바이트 시간(TTFB) < 1.3초:** ![high] 브라우저가 데이터를 받기 전까지 대기하는 시간을 최대한 줄이세요.
@@ -561,17 +571,15 @@
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **동일한 프로토콜에서 파일 제공:** ![high] 웹 사이트에서 HTTPS를 사용하지 않도록하고 HTTP를 이용하는 소스에서 파일을 가져오세요.
+- [ ] **동일한 프로토콜에서 파일 제공:** ![high] Avoid having your website serving files coming from source using HTTP on your website which is using HTTPS for example. If your website is using HTTPS, external files should come from the same protocol.
 
 - [ ] **연결 가능한 파일 제공:** ![high] 연결 불가능한 파일(404)을 요청하지 마세요.
-
  * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
 - [ ] **올바른 HTTP 캐시 헤더 설정:** ![high] 브라우저와 서버 사이 비용이 큰 왕복을 피하도록 HTTP 헤더를 설정하세요.
-
  * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
 
-- [ ] **GZIP / Brotli 압축 활성화:** ![high]
+- [ ] **GZIP / Brotli 압축 활성화:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
 
  * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
  * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
@@ -582,11 +590,35 @@
 ---
 ## Performances and JS Frameworks
 
+### Angular
+ * 📖 [Angular Performance Checklist](https://github.com/mgechev/angular-performance-checklist)
+
 ### React
 
  * 📖 [Optimizing Performance - React](https://reactjs.org/docs/optimizing-performance.html)
  * 📖 [React image manipulation | Cloudinary](https://cloudinary.com/documentation/react_image_manipulation)
  * 📖 [Debugging React performance with React 16 and Chrome Devtools.](https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad)
+  * 📖 [Build Performant - React](https://web.dev/react/)
+
+### Vue
+ * 📖 [Vue - Useful Links|Style Guide and Performance](https://learn-vuejs.github.io/vue-patterns/useful-links/)
+
+## Performances and CMS
+
+### WordPress
+
+* 🛠 [Test Your Website Speed | WordPress Hosting by @WPEngine](https://wpengine.com/speed-tool/)
+
+#### Articles
+
+ * 📖 [19 Tips to Speed Up WordPress Performance (Updated)](https://www.wpbeginner.com/wordpress-performance-speed/)
+ * 📖 [Speed Up Your WordPress - How to Save Images Optimized for Web](https://www.wpbeginner.com/beginners-guide/speed-wordpress-save-images-optimized-web/)
+
+#### Plugins recommended
+
+* 🛠 [Caching Plugin for WordPress - Speed up your website with WP Rocket](https://wp-rocket.me/)
+* 🛠 [WP-Sweep | WordPress.org](https://wordpress.org/plugins/wp-sweep/)
+* 🛠 [Imagify Image Optimizer | WordPress.org](https://wordpress.org/plugins/imagify/)
 
 ### Vue
 
@@ -613,6 +645,16 @@
 * 🇫🇷 French: [WilliamDASILVA/Front-End-Performance-Checklist](https://github.com/WilliamDASILVA/Front-End-Performance-Checklist)
 * 🇰🇷 Korean: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
 
+* 🇵🇹 Portuguese: [fernandofawkes/Front-End-Performance-Checklist](https://github.com/fernandofawkes/Front-End-Performance-Checklist)
+* 🇨🇳 Chinese: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
+* 🇷🇺 Russian: [lex111/Front-End-Performance-Checklist](https://github.com/lex111/Front-End-Performance-Checklist)
+* 🇫🇷 French: [WilliamDASILVA/Front-End-Performance-Checklist](https://github.com/WilliamDASILVA/Front-End-Performance-Checklist)
+* 🇰🇷 Korean: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
+* 🇪🇸 Spanish: [dagerzuga/Front-End-Performance-Checklist](https://github.com/dagerzuga/Front-End-Performance-Checklist)
+* 🇻🇮 Vietnamese : [huynhan147/Front-End-Performance-Checklist](https://github.com/huynhan147/FrontEnd-Performance-Checklist)
+* 🇯🇵 Japanese: [GameWith/Front-End-Performance-Checklist](https://github.com/GameWith/Front-End-Performance-Checklist)
+* 🇵🇱 Polish: [mbiesiad/Front-End-Performance-Checklist](https://github.com/mbiesiad/Front-End-Performance-Checklist)
+
 ## Contributing
 
 **이슈를 열거나 풀 리퀘스트를 보내 변경 사항이나 추가점을 제안하세요.**
@@ -621,13 +663,13 @@
 
 질문이나 제안이 있다면 Gitter나 트위터 사용을 망설이지 마세요:
 
-* [Chat on Gitter](https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+* [Chat on Discord](https://discord.gg/btHQRkm)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
 ## Author
 
-**Build with ❤️ by [David Dias](https://github.com/thedaviddias) at [@influitive](https://influitive.com/) 🇨🇦**
+**Build with ❤️ by [David Dias](https://github.com/thedaviddias)
 
 ## Contributors
 
@@ -660,7 +702,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/front-end-checklist/sponsor/9/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/9/avatar.svg"></a>
 ## License
 
-[MIT](LICENCE)
+[MIT](LICENSE)
 
 All icons are provided by [Icons8](https://icons8.com/)
 
@@ -674,6 +716,6 @@ All icons are provided by [Icons8](https://icons8.com/)
 [javascript]: images/javascript.png
 [server-side]: images/server-side.png
 
-[low]: https://front-end-checklist.now.sh/low.svg
-[medium]: https://front-end-checklist.now.sh/medium.svg
-[high]: https://front-end-checklist.now.sh/high.svg
+[low]: images/priority/low.svg
+[medium]: images/priority/medium.svg
+[high]: images/priority/high.svg
